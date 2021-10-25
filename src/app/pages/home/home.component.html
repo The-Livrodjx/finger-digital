@@ -15,11 +15,11 @@
       </thead>
       <tbody>
         <tr *ngFor="let user of users;">
-          <td>Id: {{user.id}}</td>
-          <td>Nome: {{user.name}}</td>
-          <td>Email: {{user.email}}</td>
-          <td>Cidade: {{user.address.city}}</td>
-          <td>Nome da empresa: {{user.company.name}}</td>
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.address.city}}</td>
+          <td>{{user.company.name}}</td>
         </tr>
       </tbody>
     </table>
