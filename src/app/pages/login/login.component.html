@@ -1,0 +1,12 @@
+<div class="page-login">
+  <form [formGroup]="loginForm" novalidate>
+    <h1>Login</h1>
+
+
+    <input [(ngModel)]="username" formControlName="username" type="text" name="name" placeholder="Username">
+
+    <input [(ngModel)]="password" formControlName="password" type="password" name="password" placeholder="Password">
+
+    <button (click)="logIn()" type="submit">Log In</button>
+  </form>
+</div>
